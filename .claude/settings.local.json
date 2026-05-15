@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir F:catalogo-mass *)",
+      "PowerShell(docker compose version *)",
+      "PowerShell(docker compose *)",
+      "PowerShell(\\(Invoke-WebRequest http://localhost:8080/api/schema -UseBasicParsing\\).StatusCode; \\(Invoke-WebRequest http://localhost:8080/api/docs -UseBasicParsing\\).StatusCode)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(Write-Host \"--- health ---\"; \\(Invoke-WebRequest http://localhost:8000/api/health -UseBasicParsing\\).Content; Write-Host \"`n--- categories ---\"; \\(Invoke-WebRequest http://localhost:8000/api/categories -UseBasicParsing\\).Content; Write-Host \"`n--- stores ---\"; \\(Invoke-WebRequest http://localhost:8000/api/stores -UseBasicParsing\\).Content)",
+      "PowerShell(Write-Host \"--- products \\(page 1\\) ---\"; $r = Invoke-RestMethod http://localhost:8000/api/products; Write-Host \"count=$\\($r.count\\)\"; $r.results | Select-Object -First 3 | Format-List sku, name, brand, price, in_stock; Write-Host \"--- suggest 'arroz' ---\"; Invoke-RestMethod \"http://localhost:8000/api/search/suggest?q=arroz\" | Format-Table name, price)",
+      "PowerShell(Write-Host \"--- frontend HTML ---\"; \\(Invoke-WebRequest http://localhost:4200/ -UseBasicParsing\\).Content.Substring\\(0, 600\\); Write-Host \"`n`n--- frontend proxy /api/health ---\"; \\(Invoke-WebRequest http://localhost:4200/api/health -UseBasicParsing\\).Content; Write-Host \"`n--- frontend proxy /api/categories ---\"; \\(\\(Invoke-WebRequest http://localhost:4200/api/categories -UseBasicParsing\\).Content.Substring\\(0, 200\\)\\))",
+      "PowerShell(Write-Host \"--- HTML root ---\"; \\(Invoke-WebRequest http://localhost:4200/ -UseBasicParsing\\).Content.Substring\\(0, 500\\); Write-Host \"`n--- proxy /api/categories ---\"; \\(\\(Invoke-WebRequest http://localhost:4200/api/categories -UseBasicParsing\\).Content.Substring\\(0, 150\\)\\))",
+      "PowerShell(gh *)",
+      "PowerShell(git add *)"
+    ]
+  }
+}

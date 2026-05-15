@@ -1,0 +1,56 @@
+contexto: se quiere crear un sistema compras de productos de supermercado online para la empresa Compañía Hard Discount(Mass)
+Para la arquitectura se va a usar Python con el servidor gunicorn usando flask y django como backend y se usara typescript para el entorno fronend y la base de datos se usara postgres
+
+requisitos del sistema:
+
+Permitir registro, inicio de sesión y gestión de perfil. 
+
+Mostrar catálogo con categorías y filtros. 
+
+Gestionar carrito (agregar, editar, eliminar productos). 
+
+Procesar pagos (tarjeta, billeteras digitales, contra entrega). 
+
+Recomendar productos personalizados con IA. 
+
+Buscar productos con sugerencias en tiempo real. 
+
+Mostrar detalle de productos (precio, descripción, stock, imagen). 
+
+Notificar estado del pedido (correo/SMS). 
+
+Permitir calificar y reseñar productos. 
+
+Generar listas de compra automáticas con IA. 
+
+Aplicar cupones y mostrar promociones. 
+
+Programar entrega con fecha y horario. 
+
+Consultar historial y repetir compras. 
+
+Gestionar inventario y precios (admin). 
+
+Chatbot con IA para atención al cliente. 
+
+Gestionar múltiples direcciones de envío. 
+
+Cancelar pedidos antes del despacho. 
+
+Mostrar seguimiento del pedido en tiempo real. 
+
+Guardar productos en lista de favoritos. 
+
+Comparar productos por precio y características. 
+
+Enviar alertas de ofertas personalizadas. 
+
+Detectar intención de compra y sugerir productos con IA. 
+
+Predecir productos futuros según comportamiento del usuario (IA). 
+
+Mostrar disponibilidad según ubicación del usuario. 
+
+Permitir seleccionar tienda para recojo en local. 
+
+
