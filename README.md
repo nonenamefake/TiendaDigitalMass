@@ -1,6 +1,6 @@
 # Aclaracion
 
-Este proyecto es creado con fines de aprendisaje y educativo, no tiene nada que ver con la empresa "Mass" ni se esta usando su nombre con fines lucrativos.
+Este proyecto es creado con fines de aprendisaje y educativo, **no tiene ninguna relacion con la empresa "Mass"** ni se esta usando su nombre con fines lucrativos. El uso de su nombre se deve a que se recreo una problematica sobre una **empresa real** con fines de educativos.
 
 # Catalogo Mass
 
