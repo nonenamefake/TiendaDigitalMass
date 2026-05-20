@@ -1,12 +1,12 @@
+# Aclaracion
+
+Este proyecto es creado con fines de aprendisaje y educativo, **no tiene ninguna relacion con la empresa "Mass"** ni se esta usando su nombre con fines lucrativos. El uso de su nombre se deve a que se recreo una problematica sobre una **empresa real** con fines de educativos.
+
 # Catalogo Mass
 
 E-commerce de supermercado online para **Compania Hard Discount (Mass)**.
 
 Stack: Django + DRF (API) | Flask (microservicio IA - Fase 2) | Angular (frontend) | PostgreSQL | Redis | Nginx | Docker Compose.
-
-## Sprint 0 - Bootstrap
-
-Este sprint deja el esqueleto del repo y el stack completo arrancando con un solo comando. Las features de negocio se desarrollan a partir del Sprint 1.
 
 ## Requisitos
 
